@@ -1,0 +1,1 @@
+30 13 * * * python /app/qundis_mail_handling.py >> /opt/logs/cronlogfile.txt
