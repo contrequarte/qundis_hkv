@@ -1,0 +1,3 @@
+log_filename: './logs/qundis_convert.log'
+target_sender_address: 'donotreply@q-smp.com'
+credentials_file_location: './credentials.yaml'

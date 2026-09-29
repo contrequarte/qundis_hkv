@@ -1,0 +1,4 @@
+# changing below values is possible, but mostly will require additional modifications to the dockerfile
+log_filename: '/opt/logs/qundis_convert.log' # this log file setting matches with the folder created by dockerfile. 
+target_sender_address: 'donotreply@q-smp.com' # there has to go the email address of the account, which sends the HKV XML files to you (sample here is Qundis)
+credentials_file_location: '/app/credentials.yaml' # this setting tells, that the credential file is expected in the app folder (see docker file)
