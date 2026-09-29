@@ -189,7 +189,7 @@ def send_csv_by_email(csv_data, file_name):
 
 def send_found_no_new_hkv_email():
     # get the credentials
-    user, pwd, _, smtp_server, port, _, _, no_hkv_found_to = load_credentials('/app/credentials.yaml')
+    user, pwd, _, smtp_server, port, _, _, no_hkv_found_to = load_credentials(credentials_file_location)
 
     msg = MIMEMultipart()
     msg["Subject"] = "No new HKV files found!"
